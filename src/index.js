@@ -11,7 +11,7 @@ import Term from "./Components/Termandconditions/Term";
 
 ReactDOM.render(
   <>
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route exact path="/" element={<App />}></Route>
         <Route exact path="/privacy" element={<Privacy />}></Route>
