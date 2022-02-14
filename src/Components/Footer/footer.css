@@ -1,0 +1,26 @@
+.footer {
+  height: 100vh;
+}
+.borderr {
+  /* width: 20rem; */
+  margin-right: 6rem;
+  margin-left: -6rem;
+  /* border: 1px solid rebeccapurple; */
+}
+@media only screen and (max-width: 600px) {
+  .respond {
+    /* border: 1px solid rebeccapurple; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 4rem;
+    /* width: fit-content; */
+    /* padding: 0 10px; */
+
+    /* margin-top: 30rem; */
+  }
+  .re {
+    padding: 5px 10px;
+    /* border: 1px solid rebeccapurple; */
+  }
+}

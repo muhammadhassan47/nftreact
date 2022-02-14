@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.containerr {
+  background-image: url("https://external-preview.redd.it/JxFE1ncWMQKYnwj9ThdGNQw0MuT3z-uBKimmca4zv4o.jpg?auto=webp&s=b59bad632f6544bc657631c5ac1b585dfc6df3fd");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  /* margin-top: 2rem; */
+  display: flex;
+  color: white;
+  /* flex-wrap: wrap; */
+  /* align-items: center; */
+}
+.left {
+  flex: 2;
+  /* margin-top: 10rem; */
+  padding-top: 5rem;
+  /* border: 2px solid rebeccapurple; */
+  /* height: fit-content; */
+}
+
+.btn {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid rebeccapurple; */
+}
+.right {
+  flex: 1;
+  margin-top: 5rem;
+  /* border: 2px solid rgb(36, 3, 70); */
+}
+
+.cards {
+  /* border: 2px solid rebeccapurple; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  position: relative;
+  border-radius: 20px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  color: rgb(32, 30, 30);
+  /* margin-bottom: 3rem; */
+}
+.cards-item {
+  margin-top: -4rem;
+}
+.price {
+  color: rgb(182, 179, 179);
+  font-size: 22px;
+}
+
+.cbtn {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: rgb(103, 104, 107);
+  text-align: center;
+  cursor: pointer;
+  /* height: 100px; */
+  width: 100%;
+  font-size: 14px;
+}
+.h-full {
+  /* background-color: aqua; */
+}
+.btne {
+  /* background-color: aqua; */
+  /* margin-left: -1rem; */
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.left {
+  /* border: 1px solid rebeccapurple; */
+  margin-top: 2rem;
+}
+@media (max-width: 600px) {
+  .containerr {
+    height: 150vh;
+    /* background-color: aqua; */
+    flex-direction: column;
+  }
+  .left {
+    /* border: 2px solid rebeccapurple; */
+    /* padding-bottom: -10rem; */
+  }
+  .h1 {
+    color: white;
+    /* background-color: brown; */
+    margin-top: -5rem;
+    /* border: 2px solid rebeccapurple; */
+  }
+  .lineh {
+    color: white;
+  }
+  .right {
+    /* border: 2px solid rebeccapurple; */
+    /* padding-bottom: -5rem; */
+  }
+  .cards-item {
+    /* border: 2px solid rebeccapurple; */
+    margin-top: -10rem;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .containerr {
+    /* background-color: aqua; */
+    height: 190vh;
+  }
+  .left {
+    /* background-color: blue; */
+    height: 50px;
+  }
+  .h1 {
+    padding-top: 3rem;
+  }
+
+  .right {
+    /* background-color: blueviolet; */
+    margin-bottom: -4rem;
+  }
+  .cards-item {
+    margin-bottom: 4rem;
+  }
+}

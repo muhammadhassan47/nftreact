@@ -1,0 +1,20 @@
+.about1 {
+  height: 100vh;
+  /* margin-top: 1rem; */
+  margin-top: -2rem;
+  background-color: #f7f7f7;
+  /* background-color: aqua; */
+  position: relative;
+}
+.imgheight {
+  height: 75%;
+  width: 100%;
+}
+.custom {
+  /* background-color: aqua; */
+
+  /* height: 50vh; */
+}
+.rem {
+  margin-bottom: 10rem;
+}

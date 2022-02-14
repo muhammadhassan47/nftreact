@@ -1,0 +1,25 @@
+.header {
+  /* background-image: url("../../assets/imgs/back.jpg");
+  opacity: 0.2; */
+  /* background-image: url("../../assets/imgs/backg.jpg"); */
+
+  /* background-position: center; */
+  /* background-size: cover; */
+  /* height: 85vh; */
+  /* position: relative; */
+  /* margin-bottom: -rem; */
+  /* border: 1px solid rebeccapurple; */
+}
+
+/* .opacity {
+  opacity: 0.2;
+} */
+.wid {
+  width: 100%;
+  background-color: #161652;
+  height: 1rem;
+}
+
+.hiddenc {
+  display: none;
+}
